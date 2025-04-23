@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Huria Tahiry: elon  <--- Put your name here
+Huria Tahiry
 """
 
 """ 
@@ -85,9 +85,7 @@ def win_dozen(bet_value, roll):
 
 
 
-# For a column bet, bet_value is either 1, 2, or 3, representing
-# a bet on the first, second, or third column of numbers.
-# A roll of 0 or 00 (37) always loses with this type of bet.
+
 def win_column(bet_value, roll):
     column_1 = [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34]
     column_2 = [2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35]
@@ -156,10 +154,7 @@ def main_play_game():
         print('The roll value is', roll)
 
 
-        # 2. Write a series of if-statements that calls the "win" function
-        # that corresponds to the bet type, determines if the player won or
-        # lost, and determines the payout.  Use as many variables as you
-        # need to store/track this information.
+      
 
 
         if bet_type == 1:
@@ -198,9 +193,6 @@ def main_play_game():
 
 
 
-
-    # 3. Print whether the player won or lost, and how much
-    #    (Payout amounts are in the project description)
 
 
 if __name__ == "__main__":
